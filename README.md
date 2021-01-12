@@ -1,10 +1,19 @@
 # King County Home Remodeling
 
-![image.png](attachment:image.png)
+![image.png](Images/kingcounty.jpg)
+
 
 ## Project Overview
 
 For this project, you will use regression modeling to analyze house sales in a northwestern county.
+
+### Business Problem
+
+A real estate agency wants to help homeowners decipher the best ways to improve their homes to enhance the estimated value of their homes.
+
+It is up to you to define a stakeholder and business problem appropriate to this dataset.
+
+If you are struggling to define a stakeholder, we recommend you complete a project for a real estate agency that helps homeowners buy and/or sell homes. A business problem you could focus on for this stakeholder is the need to provide advice to homeowners about how home renovations might increase the estimated value of their homes, and by what amount.
 
 ### The Data
 
@@ -12,20 +21,14 @@ This project uses the King County House Sales dataset, which can be found in  `k
 
 It is up to you to decide what data from this dataset to use and how to use it. 
 
-### Business Problem
-
-It is up to you to define a stakeholder and business problem appropriate to this dataset.
-
-If you are struggling to define a stakeholder, we recommend you complete a project for a real estate agency that helps homeowners buy and/or sell homes. A business problem you could focus on for this stakeholder is the need to provide advice to homeowners about how home renovations might increase the estimated value of their homes, and by what amount.
-
 ## Data Preparation
 
 
-### Data Modeling
+## Data Modeling
 
-### Conclusion
+## Conclusion
 
-### Recommendations for Further Analysis
+## Recommendations for Further Analysis
 
 ## For More Information
 
