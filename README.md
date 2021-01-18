@@ -21,7 +21,7 @@ I decided what data from this dataset to use and how to use it.
 
 ## Data Preparation
 
-Factors that influence how well a house might sell in King County include square footage of a home, number of bedrooms, number of bathrooms, and number of floors of a home. I use these specific home aspects from the King County House Sales dataset because they are all variables that can be realistically constructed or deconstructed in order to improve the selling price of a home. I created graphs of the relationships between these attributes of homes in King County and the sale prices of the homes in King County they related to in order to connect how home sale price and the various attributes affect one another. The graphs are shown below:
+Factors that influence how well a house might sell in King County include square footage of a home, number of bedrooms, number of bathrooms, and number of floors of a home. I used these specific home aspects from the King County House Sales dataset because they are all variables that can be realistically constructed or deconstructed in order to improve the selling price of a home. I created graphs of the relationships between these attributes of homes in King County and the sale prices of the homes in King County they related to in order to connect how home sale price and the various attributes affect one another. The graphs are shown below:
 
 ![first graphs](Images/firsttwographshousing.png)
 
@@ -38,7 +38,7 @@ My initial model used square footage, number of bedrooms, number of bathrooms, a
 
 The initial model had linear coefficients for my features of 283128.64 for square footage, -55432.11 for bedrooms, 8187.87 for bathrooms, and 529.48 for floors. The linear intercept was 541284.46. The test set had an r2 score of 258699.74, which means my model could be about 258699.74 dollars off of my target home selling price.
 
-I decided to create a second model that mitigated the outlier data. I changed the number of bedrooms and bathrooms per house to less than or equal to 6. This data mostly represents single family households. I altered the number of floors in the data to only include houses with three floors or less. I reinstated a new home selling price ceiling to include only homes whose initial home price value was within two standard deviations of the mean home price value. The changes I made allowed my new model to only account for 7.75 percent of the King County House Sales data.
+I decided to create a second model that mitigated the outlier data. I changed the number of bedrooms and bathrooms per house to less than or equal to 6. This data mostly represents single family households. I altered the number of floors in the data to only include houses with three floors or less. I reinstated a new home selling price ceiling of 1275032.85 dollars to include only homes whose initial home price value was within two standard deviations of the mean home price value. The changes I made allowed my new model to only account for 7.75 percent of the King County House Sales data.
 
 The second model had linear coefficients for my features of 154055.42 for square footage, -25333.12 for bedrooms, -107.35 for bathrooms, and 13827.04 for floors. The linear intercept was 486201.73. The test set had an r2 score of 214514.57, which means my model could be about 214514.57 dollars off of my target home selling price.
 
