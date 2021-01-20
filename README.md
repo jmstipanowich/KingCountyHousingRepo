@@ -54,7 +54,7 @@ I attempted a third model using a log transforming of housing price to determine
 
 ## Recommendations for Further Analysis
 
-- Create more models with different data cleaning tactics on numeber of bedrooms to find a positive correlation value for number of bedrooms in relation to home selling price.
+- Create more models with different data cleaning tactics on number of bedrooms to find a positive correlation value for number of bedrooms in relation to home selling price.
 
 - Include more specified square footage columns from original King County House Sales dataset in new models to attain other square footage values for comparison with home selling price. Look at square footage of the lot where it is different from square footage of a home. Procure information about square footage living of a house with or without a basement.
 
