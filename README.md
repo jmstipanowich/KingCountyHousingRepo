@@ -7,7 +7,7 @@ Author: James Stipanowich
 
 ## Project Overview
 
-Every year homes are bought and sold in the Washington state area. Seattle, one of the largest cities in Washington state, belongs to a county named King County. The buying and selling of houses occurs every year in King County in the state of Washington. The housing price values are recorded and may vary over many thousands and millions of dollars. The worth of a house may depend on many different factors including square footage, number of bedrooms, number of bathrooms, and number of floors of a home. Regression modeling is implemented to analyze house sales in King County and inform a home seller how to sell a home with the greatest net worth possible.
+Every year homes are bought and sold in the Washington state area. Seattle, one of the largest cities in Washington state, belongs to a county named King County. The buying and selling of houses occurs every year in King County in the state of Washington. The housing price values are recorded and may vary over many thousands and millions of dollars. The worth of a house may depend on many different factors including square footage, number of bedrooms, number of bathrooms, and number of floors of a home. Regression modeling is implemented to analyze house sales in King County and inform a home seller how to sell a home for the greatest net worth possible.
 
 ## Business Problem
 
@@ -54,7 +54,7 @@ I attempted a third model using a log transforming of housing price to determine
 
 ## Recommendations for Further Analysis
 
-- Create more models with different data cleaning tactics on bedrooms to find a positive correlation value for bedrooms in relation to home selling price.
+- Create more models with different data cleaning tactics on numeber of bedrooms to find a positive correlation value for number of bedrooms in relation to home selling price.
 
 - Include more specified square footage columns from original King County House Sales dataset in new models to attain other square footage values for comparison with home selling price. Look at square footage of the lot where it is different from square footage of a home. Procure information about square footage living of a house with or without a basement.
 
