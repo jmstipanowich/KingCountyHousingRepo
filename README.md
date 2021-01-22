@@ -60,9 +60,20 @@ I attempted a third model using a log transforming of housing price to determine
 
 ## For More Information
 
-See the full analysis of my findings in...
+See the full analysis of my findings in KingCountyHousingCodes.ipynb
 
 Contact me at jmstipanowich@gmail.com
 
 ## Repository Structure
 
+├── Images
+
+├── data
+
+├── KingCountyHousingCodes.ipynb
+
+├── KingCountyHousingPowerpoint.pdf
+
+├── README.md
+
+├── student.ipynb
