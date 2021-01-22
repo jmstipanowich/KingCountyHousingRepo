@@ -7,7 +7,7 @@ Author: James Stipanowich
 
 ## Project Overview
 
-Every year homes are bought and sold in the Washington state area. Seattle, one of the largest cities in Washington state, belongs to a county named King County. The buying and selling of houses occurs every year in King County in the state of Washington. The housing price values are recorded and may vary over many thousands and millions of dollars. The worth of a house may depend on many different factors including square footage, number of bedrooms, number of bathrooms, and number of floors of a home. Regression modeling is implemented to analyze house sales in King County and inform a home seller how to sell a home for the greatest net worth possible.
+Every year homes are bought and sold in the Washington state area. Seattle, the largest city in Washington state, belongs to a county named King County. The buying and selling of houses occurs every year in King County. The housing price values are recorded and vary over many thousands and millions of dollars. The worth of a house may depend on many different factors including square footage, number of bedrooms, number of bathrooms, and number of floors of a home. Regression modeling is implemented to analyze house sales in King County and inform a home seller how to sell a home for the greatest net worth possible.
 
 ## Business Problem
 
@@ -21,20 +21,20 @@ I decided what data from this dataset to use and how to use it.
 
 ## Data Preparation
 
-Factors that influence how well a house might sell in King County include square footage of a home, number of bedrooms, number of bathrooms, and number of floors of a home. I used these specific home aspects from the King County House Sales dataset because they are all variables that can be realistically constructed or deconstructed in order to improve the selling price of a home. I created graphs of the relationships between these attributes of homes in King County and the sale prices of the homes in King County they related to in order to connect how home sale price and the various attributes affect one another. The graphs are shown below:
+Factors that influence how well a house might sell in King County include square footage, number of bedrooms, number of bathrooms, and number of floors of a home. I used these specific home aspects from the King County House Sales dataset because they are all variables that can be realistically constructed or deconstructed in order to improve the selling price of a home. I created graphs of the relationships between these attributes of homes in King County and the sale prices of these homes in King County to connect how home sale price and the various attributes affect one another. The graphs are shown below:
 
 ![first graphs](Images/firsttwographshousing.png)
 
 ![second graphs](Images/secondtwographshousing.png)
 
 
-The graphs showed that the relationships between these various features of a home and home sale price are on different scales. Each of these home variables links with the home sale price in a unique way.
+The graphs showed the relationships between these various features of a home and home sale price on different scales. Each of these home variables links with the home sale price in a unique way.
 
 ## Data Modeling
 
-In order to take into account square footage, number of bedrooms, number of bathrooms, and number of floors of a home on a collective scale with a more specified affiliation with home sale price I created a model including all of these aspects of home sales and compared the various model features with home selling price.
+In order to take into account square footage, number of bedrooms, number of bathrooms, and number of floors of a home on a collective scale with a more specified affiliation with home sale price, I created a model including all of these aspects of home sales and compared the various model features with home selling price.
 
-My initial model used square footage, number of bedrooms, number of bathrooms, and number of floors of a home as they existed unchanged in the dataset and took in 51 percent of the King County House Sales data from the dataset. Square footage, number of bedrooms, number of bathrooms, and number of floors of a home all had very different relationships with sale price of a home. My baseline model included a lot of outlier data that may have strongly skewed the relationships between the various features of square footage, number of bedrooms, number of bathrooms, and number of floors of a home and home selling price. 
+My initial model used square footage, number of bedrooms, number of bathrooms, and number of floors of a home as they existed unchanged in the dataset and took in 51 percent of the King County House Sales data from the dataset. Square footage, number of bedrooms, number of bathrooms, and number of floors of a home all had very different relationships with the sale price of a home. My baseline model included a lot of outlier data that may have strongly skewed the relationships between the various features of square footage, number of bedrooms, number of bathrooms, and number of floors of a home and home selling price. 
 
 The initial model had linear coefficients for my features of 283128.64 for square footage, -55432.11 for bedrooms, 8187.87 for bathrooms, and 529.48 for floors. These coefficients exhibit that square footage had the strongest positive relationship with home sale price of the features. Number of bedrooms had a negative relationship with home sale price. Number of floors and number of bathrooms both had minor positive relationships with home sale price. The linear intercept was 541284.46. The linear intercept expresses that under the first model conditions the expected value to sell a house given nothing is changed with the house is 541284.46 dollars. The first model test set had a root mean squared error value of 258699.74, which means my model could be about 258699.74 dollars off of my target home selling price.
 
@@ -46,15 +46,15 @@ I attempted a third model using a log transforming of housing price to determine
 
 ## Conclusions
 
-- Create homes with more square foot living space and less bedrooms.
+- Create homes with more square foot living space but not necessarily bedrooms.
 
 - Allow more variance with number of bathrooms and number of floors in homes because the relationship of these variables change less with relation to home sale price.
 
-- Expect an average home price value of $541284 or $486201 depending on choice of model.
+- Expect a normal home selling price value of $541284 or $486201 without any changes.
 
 ## Recommendations for Further Analysis
 
-- Create more models with different data cleaning tactics on number of bedrooms to find a positive correlation value for number of bedrooms in relation to home selling price.
+- Create more regression models with different data cleaning tactics on number of bedrooms to find a positive correlation value for number of bedrooms in relation to home selling price.
 
 - Include more specified square footage columns from original King County House Sales dataset in new models to attain other square footage values for comparison with home selling price. Look at square footage of the lot where it is different from square footage of a home. Procure information about square footage living of a house with or without a basement.
 
