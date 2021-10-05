@@ -56,6 +56,8 @@ I attempted a third model using a log transforming of housing price to determine
 
 - Include more specified square footage columns from original King County House Sales dataset in new models to attain other square footage values for comparison with home selling price. Look at square footage of the lot where it is different from square footage of a home. Procure information about square footage living of a house with or without a basement.
 
+- View locations of homes for sale and determine if that influences selling price.
+
 ## For More Information
 
 See the full analysis of my findings in KingCountyHousingCodes.ipynb
