@@ -75,5 +75,3 @@ Contact me at jmstipanowich@gmail.com
 ├── KingCountyHousingPowerpoint.pdf
 
 ├── README.md
-
-├── student.ipynb
