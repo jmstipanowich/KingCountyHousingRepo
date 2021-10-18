@@ -7,7 +7,7 @@ Author: James Stipanowich
 
 ## Project Overview
 
-Every year homes are bought and sold in the Washington state area. Seattle, the largest city in Washington state, belongs to a county named King County. The buying and selling of houses occurs every year in King County. The housing price values are recorded and vary over many thousands and millions of dollars. The worth of a house may depend on many different factors including square footage, number of bedrooms, number of bathrooms, and number of floors of a home. Regression modeling is implemented to analyze house sales in King County and inform a home seller how to sell a home for the greatest net worth possible.
+Every year many homes are bought and sold in Washington state. Seattle, the largest city in Washington state, belongs to a county named King County. The buying and selling of houses occurs every year in King County in mass quantities because King County happens to be the most populous county in Washington state and the 12th most populous county in the United States (information obtained from https://en.wikipedia.org/wiki/King_County,_Washington). Each year vast amounts of home selling price values get recorded in King County and vary from high thousands to millions of dollars. The monetary worth of a house can depend on many factors that include square footage, number of bedrooms, number of bathrooms, and number of floors of a home. Regression modeling is implemented in King County, a county with enormous potential for home sales, to assess home value and to inform a home seller how to sell a home for the greatest net worth possible.
 
 ## Business Problem
 
