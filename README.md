@@ -23,9 +23,9 @@ I decided what data from this dataset to use and how to use it.
 
 Factors that influence how well a house might sell in King County include square footage, number of bedrooms, number of bathrooms, and number of floors of a home. I used these specific home aspects from the King County House Sales dataset because they are all variables that can be realistically constructed or deconstructed in order to improve the selling price of a home. I created graphs of the relationships between these attributes of homes in King County and the sale prices of these homes in King County to connect how home sale price and the various attributes affect one another. The graphs are shown below:
 
-![first graphs](Images/firsttwographshousing.png)
+![first graphs](Images/firsttwographshousingedit.png)
 
-![second graphs](Images/secondtwographshousing.png)
+![second graphs](Images/secondtwographshousingedit.png)
 
 
 The graphs show the relationships between these various features of a home and home sale price on different scales. Each of these home variables links with home sale price in a unique way.
