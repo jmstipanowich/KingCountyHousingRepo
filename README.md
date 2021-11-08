@@ -32,9 +32,7 @@ The graphs show the relationships between these various features of a home and h
 
 ## Data Modeling
 
-In order to take into account square footage, number of bedrooms, number of bathrooms, and number of floors of a home on a collective scale with a more specified affiliation with home sale price, I created a model including all of these aspects of home sales and compared the various model features with home selling price.
-
-My initial model used square footage, number of bedrooms, number of bathrooms, and number of floors of a home as they existed unchanged in the dataset and ended up with a .52 test R2 score (medium amount of variation in the data). Square footage, number of bedrooms, number of bathrooms, and number of floors of a home all had very different relationships with the sale price of a home. 
+In order to take into account square footage, number of bedrooms, number of bathrooms, and number of floors of a home on a collective scale with a more specified affiliation with home sale price, I created a model including all of these aspects of home sales and compared the various model features with home selling price. My initial model used square footage, number of bedrooms, number of bathrooms, and number of floors of a home as they existed unchanged in the dataset and ended up with a .52 test R2 score (medium amount of variation in the data). 
 
 The initial model had linear coefficients that exhibit square footage had the strongest positive relationship with home sale price of the features. Number of bedrooms had a negative relationship with home sale price. Number of floors and number of bathrooms both had minor positive relationships with home sale price. The first model test set had a root mean squared error value of 258699.74, which means my model could be about 258699.74 dollars off of my target home selling price. My baseline model included a lot of outlier data that may have strongly skewed the relationships between the various features of square footage, number of bedrooms, number of bathrooms, and number of floors of a home and home selling price. 
 
