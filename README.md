@@ -1,6 +1,6 @@
 # King County Home Remodeling
 
-![image.png](Images/kingcountyenlarged.jpg)
+![image.png](Images/kingcounty.jpg)
 
 Author: James Stipanowich
 
