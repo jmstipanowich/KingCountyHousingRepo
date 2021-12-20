@@ -1,4 +1,4 @@
-# King County Home Remodeling: How to Get the Best Value for Your Home
+# King County Home Remodeling: How to Receive the Best Value for a Home
 
 ![image.png](Images/kingcounty.jpg)
 
