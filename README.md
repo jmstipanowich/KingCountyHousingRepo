@@ -1,6 +1,6 @@
 # King County Home Remodeling: How to Receive the Best Value for a Home
 
-![image.png](Images/kingcounty.jpg)
+![image.png](Images/kingcountynew.jpg)
 
 Author: James Stipanowich
 
